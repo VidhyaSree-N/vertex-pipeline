@@ -23,3 +23,6 @@ steps:
 
 images:
   - 'us-central1-docker.pkg.dev/project-d533213a-0f7d-4f94-94e/roworks-repo/chatbot:latest'
+
+options:
+  logging: CLOUD_LOGGING_ONLY
